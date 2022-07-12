@@ -14,7 +14,11 @@
     "loaders",
     "babel"
   ],
-  "homepage": "",
+  "homepage": "https://github.com/olha2002/cursor-webpack.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olha2002/cursor-webpack.git"
+   },
   "author": "Olha Orach",
   "license": "ISC",
   "devDependencies": {
