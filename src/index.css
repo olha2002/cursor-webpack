@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(51, 32, 32);
+    color: white;
+    text-align: center;
+}
+
+#main {
+    color: coral;
+}
+
+.subheading {
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.homework {
+    border: 3px solid coral;
+}
+
+.hw-task {
+    color: violet;
+}
