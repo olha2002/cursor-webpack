@@ -1,0 +1,28 @@
+.keyboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.key {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    color: dodgerblue;
+    cursor: pointer;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 20px 30px;
+}
+
+.name {
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    color: white;
+}
+
+.active {
+    border: 5px solid #fff;
+}
+
