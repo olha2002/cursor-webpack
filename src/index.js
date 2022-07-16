@@ -2,6 +2,7 @@ import "./styles/normalize.css";
 import "./index.css";
 import "./styles/09-hw-styles.css";
 import "./styles/10-hw-styles.css";
+import "./styles/12-hw-styles.css";
 import "./styles/13-hw-styles.css";
 
 import "./js/01-hw-index.js";
@@ -15,4 +16,16 @@ import "./js/08-hw/js";
 import "./js/09-hw-index.js";
 import "./js/10-hw-index.js";
 import "./js/11-hw-index.js";
+import "./js/12-hw-index.js";
 import "./js/13-hw-index.js";
+
+import "./img/planets/Alderaan.jpg";
+import "./img/planets/Bespin.jpg";
+import "./img/planets/Coruscant.jpg";
+import "./img/planets/Dagobah.jpg";
+import "./img/planets/Endor.jpg";
+import "./img/planets/Hoth.jpg";
+import "./img/planets/Kamino.jpg";
+import "./img/planets/Naboo.jpg";
+import "./img/planets/Tatooine.jpg";
+import "./img/planets/Yavin IV.jpg";
