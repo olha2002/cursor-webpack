@@ -4,7 +4,6 @@
     letter-spacing: 2px;
     outline: 0;
     padding: 1.5rem 2.5rem;
-    filter: drop-shadow(0 0 15px #000) drop-shadow(0 0 50px #000) contrast(2) brightness(2); 
     -webkit-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
 }

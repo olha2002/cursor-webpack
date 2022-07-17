@@ -20,9 +20,9 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
       {
-        test: /\.(jpg|png|mp3)$/,
-        use: ['file-loader']
-    },
+        test: /\.(png|svg|jpg|jpeg|gif|ogg|mp3|wav)$/i,
+        type: "asset/resource",
+      },
       {
         test: /\.m?js$/,
         exclude: /(node_modules|bower_components)/,

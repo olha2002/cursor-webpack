@@ -75,7 +75,7 @@ const fontGenerator = newFontGenerator(FONT_SIZE);
 
 makeLessButton.addEventListener("click", () => {
   fontResult.style.cssText = `
-    border: 2px solid crimson;
+    border: 2px solid violet;
     padding: 0.8rem;
     `;
 
