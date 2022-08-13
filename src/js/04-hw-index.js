@@ -12,7 +12,7 @@ const boysArray = studentsClone.filter((student) => !student.endsWith("a"));
 const girlsArray = studentsClone.filter((student) => student.endsWith("a"));
 
 // func that combines students
-function combineBoth(boysArray, girlsArray) {
+export function combineBoth(boysArray, girlsArray) {
   return boysArray.map((boy, i) => [boy, girlsArray[i]]);
 }
 const combinedBoysGirls = combineBoth(boysArray, girlsArray);

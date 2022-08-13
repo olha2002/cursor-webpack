@@ -40,7 +40,7 @@ const getFirstLetterUpperCase = (name) => {
 };
 
 //Task 4. CalcSalaryWithNoFee
-const calcSalaryWithNoFee = (salary) => salary - (salary * 19.5) / 100;
+export const calcSalaryWithNoFee = (salary) => salary - (salary * 19.5) / 100;
 
 //Task 5. GetRandomNumber function
 const getRandomNumber = (numberN, numberM) =>

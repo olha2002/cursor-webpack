@@ -5,7 +5,10 @@ export let elementIndex = 0;
 // logic
 planetsButton.addEventListener("click", () => {
   getPlanets(elementIndex);
+  previoutButton.hidden = false;
+  nextButton.hidden = false;
 });
+
 previoutButton.addEventListener("click", () => {
   elementIndex > 0 ? elementIndex-- : (elementIndex = 9);
   getPlanets(elementIndex);

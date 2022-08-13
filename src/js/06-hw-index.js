@@ -81,7 +81,7 @@ const getBestStudent = (student) => {
 };
 
 // Function #6 that calculates word letters and makes an oject of them
-function calculateWordLetters(string) {
+export function calculateWordLetters(string) {
   const wordObj = {};
 
   [...string].forEach((element) => {

@@ -41,3 +41,23 @@ import "./img/planet-6.jpg";
 import "./img/planet-7.jpg";
 import "./img/planet-8.jpg";
 import "./img/planet-9.jpg";
+
+import { checkEvenOrOdd } from "./js/01-hw-index.js";
+import { calcSalaryWithNoFee } from "./js/03-hw-index.js";
+import { getRandomArray } from "./js/05-hw-index.js";
+import { replaceBadWords } from "./js/05-hw-index.js";
+import { countPositiveNumbers } from "./js/05-hw-index.js";
+import { calculateWordLetters } from "./js/06-hw-index.js";
+
+console.log("Is it Even Int Sum(229): ", checkEvenOrOdd());
+console.log("calcSalaryWithNoFee(1000): ", calcSalaryWithNoFee(1000));
+console.log("My Random Array: ", getRandomArray(8, 5, 10));
+console.log(
+  "Replaced Bad words: ",
+  replaceBadWords("HolyShitfuckFuckFucking bitch", "bitch")
+);
+console.log(
+  "Positives numbers: ",
+  countPositiveNumbers(false, -2, true, -4, -5, 6, -1)
+);
+console.log("Calculated Word Letters Object: ", calculateWordLetters("test"));

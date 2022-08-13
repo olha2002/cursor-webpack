@@ -31,7 +31,7 @@ function itemsSum(a, b, c) {
   return a + b + c;
 }
 
-function checkEvenOrOdd() {
+export function checkEvenOrOdd() {
   return itemsSum(applesPrice, meatPrice, oilPrice) % 2 === 0 ? true : false;
 }
 

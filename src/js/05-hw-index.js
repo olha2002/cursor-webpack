@@ -1,7 +1,7 @@
 const BAD_WORDS = ["shit", "fuck"];
 
 // Function 1. Gets the random array
-const getRandomArray = (length, min, max) => {
+export const getRandomArray = (length, min, max) => {
   const randomArr = [];
 
   if (min > max) {
@@ -87,7 +87,7 @@ const filterEvenNumbers = (...numbers) => {
 };
 
 // Function 6. Counts positive numbers
-const countPositiveNumbers = (...numbers) => {
+export const countPositiveNumbers = (...numbers) => {
   const positiveNumbersArray = numbers.filter(
     (value) => typeof value === "number" && value > 0
   );
@@ -100,7 +100,7 @@ const getDividedByFive = (...numbers) => {
 };
 
 // Function 8. Replaces bad word by ****
-const replaceBadWords = (string, addYourBadWord) => {
+export const replaceBadWords = (string, addYourBadWord) => {
   if (addYourBadWord) {
     BAD_WORDS.push(addYourBadWord);
   }
